@@ -1,1 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
+
+:root {
+  --bg: #081b29;
+  --bg2: #112e42;
+  --text: #ededed;
+  --accent: #00abf0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  font-family: "Poopins", sans-serif;
+  scroll-behavior: smooth;
+}
